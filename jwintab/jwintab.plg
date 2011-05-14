@@ -1,0 +1,30 @@
+--------------------ç\ê¨: jwintab - Win32 Debug--------------------
+Begining build with project "T:\reki\myC\jwintab\jwintab.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MTd /W3 /Gm /GX /Zi /Od /I "include" /I "C:\jdk1.2.2\include" /I "C:\jdk1.2.2\include\win32" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/jwintab.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x411 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/jwintab.bsc" "
+			"COFF Linker for 80x86" with flags "lib\i386\wintab32.lib lib\i386\wntab32x.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/jwintab.pdb" /debug /machine:I386 /out:"Debug/jwintab.dll" /implib:"Debug/jwintab.lib" /pdbtype:sept "
+			"∂Ω¿— ÀﬁŸƒﬁ" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "c:\windows\TEMP\RSP3155.TMP" with contents </nologo /MTd /W3 /Gm /GX /Zi /Od /I "include" /I "C:\jdk1.2.2\include" /I "C:\jdk1.2.2\include\win32" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/jwintab.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"T:\reki\myC\jwintab\Jwintab.c"
+"T:\reki\myC\jwintab\mywintab.c"
+>
+Creating command line "cl.exe @c:\windows\TEMP\RSP3155.TMP" 
+Creating temp file "c:\windows\TEMP\RSP3156.TMP" with contents <lib\i386\wintab32.lib lib\i386\wntab32x.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/jwintab.pdb" /debug /machine:I386 /out:"Debug/jwintab.dll" /implib:"Debug/jwintab.lib" /pdbtype:sept 
+.\Debug\Jwintab.obj
+.\Debug\mywintab.obj>
+Creating command line "link.exe @c:\windows\TEMP\RSP3156.TMP" 
+∫› ﬂ≤ŸíÜ...
+Jwintab.c
+mywintab.c
+ÿ›∏íÜ...
+
+
+
+jwintab.dll - ¥◊∞ 0ÅAåxçê 0

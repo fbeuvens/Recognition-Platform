@@ -1,0 +1,5 @@
+EXPORTS
+Java_jwintab_Jwintab_getVersion
+Java_jwintab_Jwintab_open
+Java_jwintab_Jwintab_close
+Java_jwintab_Jwintab_getPacket

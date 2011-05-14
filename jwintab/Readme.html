@@ -1,0 +1,48 @@
+<H1>JWinTab  1.0</H1>
+
+<P>
+Author:  Jun Rekimoto, Sony Computer Science Laboratories, Inc.</H2>
+<P>
+Nov 14, 2000.
+
+<H2>Description</H2>
+
+This package, called JWintab is a very simple JNI (Java Native Interface) layer to the 
+tablet library called WINTAB.  Wintab is a de-fact standard library on Windows and 
+many tablet venders including WACOM support this interface.  JWintab is a very 
+simple interface to Wintab (it essentially supports only one method), for allowing Java 
+programmer to use WACOM tablet. This package was developed as a part of the 
+ToolStone project at Sony Computer Science Laboratory.   We distribute no this 
+package as open-source software, without any support or documentation beyond this file 
+and the source code itself. 
+
+<H2>Requirements</H2>
+
+<UL>
+<LI>Windows 98 <br>(Windows 2000 may work, but untested)
+<LI>
+A Wintab enabled tablet driver.<br>  (Please refer www.wacom.com for further information 
+on Wintab).  A quick way to check this is to search the file "wintab.dll"  or 
+"wintab32.dll"  under the windows folders.
+
+<LI>Java 1.2 or later
+</UL>
+
+<H2>Installation</H2>
+
+copy  jwintab.dll Jwintab.class to your directory.  Also copy WintabTest.java (a test 
+program) and compile & run it.
+
+<H2>files:</H2>
+
+<UL>
+<LI>jwintab.dll  --  a DLL
+<LI>Jwintab.java  -- JNT interface description
+<LI>Wintab.java   -- a test program
+<LI>*.c		-- source programs
+</UL>
+
+
+
+
+

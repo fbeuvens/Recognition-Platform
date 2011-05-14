@@ -1,0 +1,18 @@
+
+c:\MinGW\bin\gcc -D_JNI_IMPLEMENT
+ATION_ -I"C:\Program Files\Java\jdk1.6.0_03\include" -I"C:\Program Files\Java\jd
+k1.6.0_03\include\win32" -IINCLUDE -ILIB -ILIB\I386 -LLIB\ -LLIB\I386\   -c Jwin
+tab.c jwintab_Jwintab.h
+
+
+c:\MinGW\bin\gcc -D_JNI_IMPLEMENT
+ATION_ -I"C:\Program Files\Java\jdk1.6.0_03\include" -I"C:\Program Files\Java\jd
+k1.6.0_03\include\win32" -IINCLUDE -ILIB -ILIB\I386 -LLIB\ -LLIB\I386\   -c mywi
+ntab.c
+
+link
+
+c:\MinGW\bin\gcc -D_JNI_IMPLEMENT
+ATION_ -I"C:\Program Files\Java\jdk1.6.0_03\include" -I"C:\Program Files\Java\jd
+k1.6.0_03\include\win32" -IINCLUDE -ILIB -ILIB\I386 -LLIB\ -LLIB\I386\  -shared
+  -o jwintab-new.dll Jwintab.o mywintab.o LIB\I386\WINTAB32.LIB Jwintab.DEF
